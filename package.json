@@ -6,13 +6,11 @@
   "author": {
     "name": ""
   },
-  "“scripts”": {
-    "…": null,
+  “scripts”: {
     "“pretest”": "“./node_modules/.bin/eslint",
     "--ignore-path" ".gitignore",
     "." "--fix”"
   },
-  "…": null,
   "“husky”": {
     "“hooks”": {
       "“pre-commit”": "“npm",
