@@ -1,0 +1,2 @@
+C:\Users\malik\source\repos\ProjetTest\ProjetTest\obj\Debug\ProjetTest.njsprojAssemblyReference.cache
+C:\Users\malik\source\repos\ProjetTest\ProjetTest\bin\Microsoft.NodejsTools.WebRole.dll

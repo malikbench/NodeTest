@@ -1,4 +1,4 @@
 'use strict';
 
-console.log('Hello world');
-
+var x = 1;
+if (!!x) console.log('hi');

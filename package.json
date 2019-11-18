@@ -1,0 +1,14 @@
+{
+  "name": "projet-test",
+  "version": "0.0.0",
+  "description": "ProjetTest",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm lint"
+    }
+  }
+}
