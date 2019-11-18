@@ -6,15 +6,14 @@
   "author": {
     "name": ""
   },
-  “scripts”: {
-    "“pretest”": "“./node_modules/.bin/eslint",
-    "--ignore-path" ".gitignore",
-    "." "--fix”"
+  "scripts": {
+    "precommit": "npm test",
+    "commitmsg": "commitlint -E GIT_PARAMS"
   },
-  "“husky”": {
-    "“hooks”": {
-      "“pre-commit”": "“npm",
-      "run" "pretest”"
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }
 }
