@@ -8,14 +8,21 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test"
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
   },
   "dependencies": {
     "eslint": "^6.6.0",
     "husky": "^3.1.0"
   },
   "devDependencies": {
+    "lint-staged": "^9.4.3",
     "precise-commits": "^1.0.2"
   }
 }
