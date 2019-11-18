@@ -6,9 +6,17 @@
   "author": {
     "name": ""
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm lint"
+  "“scripts”": {
+    "…": null,
+    "“pretest”": "“./node_modules/.bin/eslint",
+    "--ignore-path" ".gitignore",
+    "." "--fix”"
+  },
+  "…": null,
+  "“husky”": {
+    "“hooks”": {
+      "“pre-commit”": "“npm",
+      "run" "pretest”"
     }
   }
 }
