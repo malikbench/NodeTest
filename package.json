@@ -8,13 +8,7 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      },
-    "devDependencies": {
-      "@commitlint/cli": "latest",
-      "@commitlint/config-conventional": "latest",
-      "husky": "latest"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
-    
   }
 }
