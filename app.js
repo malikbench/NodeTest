@@ -1,7 +1,5 @@
-console.log('hi');
-console.log('ho');
-console.log('ha');
-console.log('hu');
-
+console.log('Salut');
+console.log('Husky vas t-il être content ?');
+console.log('On verra');
 
 
