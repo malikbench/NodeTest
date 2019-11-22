@@ -9,7 +9,11 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "extends": [ "@commitlint/config-conventional" ]
+      },
+    "devDependencies": {
+      "@commitlint/cli": "latest",
+      "@commitlint/config-conventional": "latest",
+      "husky": "latest"
     }
     
   }
